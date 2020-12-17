@@ -7,3 +7,30 @@
 .layui-footer {
   text-align: center;
 }
+#iframe {
+  width: 100%;
+  height: 100%;
+}
+.layui-body {
+  overflow: hidden;
+}
+.avator {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.layui-side-scroll .avator {
+  border-bottom: 1px solid #333;
+}
+.text_avator {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  top: 5px;
+}
