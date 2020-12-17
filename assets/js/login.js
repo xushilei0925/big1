@@ -55,6 +55,7 @@ $(function () {
             }
             layer.msg(res.message);
             location.href = "index.html";
+            localStorage.setItem("token", res.token);
         })
     })
 })
